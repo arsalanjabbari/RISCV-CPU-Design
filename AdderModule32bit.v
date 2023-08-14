@@ -1,0 +1,18 @@
+`timescale 1ns / 1ps
+
+//////////////////////////////////////////////////////////////////////////////////
+// fullname : Milad Nooraei
+// student number : 9935701
+// Computer Architecture HomeWork 1
+//////////////////////////////////////////////////////////////////////////////////
+
+module AdderModule32bit(
+	input [31:0]A,
+	input [31:0]B,
+	
+	output [31:0]result
+    );
+
+	assign result = A + B;
+
+endmodule
